@@ -1,7 +1,7 @@
 class ProductsController < ApplicationController
 
   def index
-    @product_list = []
+    @product_list = Item.all
   end
 
   def show
